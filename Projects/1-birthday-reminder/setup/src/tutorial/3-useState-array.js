@@ -6,10 +6,10 @@ import { data } from "../data";
 const UseStateArray = () => {
   const [people, setPeople] = React.useState(data); //invoking without importing
 
-  const removeItem= (id) =>{
-    let newPeople = people.filter((person)=> person.id @)
-    setPeople();
-  }
+  const removeItem = (id) => {
+    let newPeople = people.filter((person) => person.id !== id);
+    setPeople(newPeople);
+  };
   return (
     <>
       {people.map((person) => {
