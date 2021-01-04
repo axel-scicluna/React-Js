@@ -2,6 +2,7 @@ import React from "react";
 import { data } from "../data";
 //<>  shourcut for <React.Fragment>
 //</>
+//this is a test
 const UseStateArray = () => {
   const [people, setPeople] = React.useState(data); //invoking without importing
 
