@@ -1,5 +1,5 @@
 import React from "react";
-import { data } from "../data";
+import { data } from "../../data";
 //<>  shourcut for <React.Fragment>
 //</>
 //this is a test

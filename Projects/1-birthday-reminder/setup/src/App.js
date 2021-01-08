@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import data from "./data";
 import List from "./List";
-import Setup from "./tutorial/5-useState-counter";
+import Setup from "./tutorial/3-conditional-rendering/1-multiple-returns";
 
 function App() {
   return (
